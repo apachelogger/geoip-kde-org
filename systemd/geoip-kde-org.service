@@ -1,0 +1,7 @@
+[Unit]
+Description=geoip.kde.org api service
+
+[Service]
+ExecStart=/home/me/opt/go/bin/geoip-kde-org
+WorkingDirectory=/home/me/opt/go/src/github.com/apachelogger/geoip-kde-org
+Restart=always

@@ -1,0 +1,7 @@
+{
+  "name": "geoip-kde-org",
+  "version": "1.0.0",
+  "description": "API for GeoIP lookup",
+  "title": "KDE GeoIP API",
+  "url" : "https://geoip.kde.org/v1"
+}
