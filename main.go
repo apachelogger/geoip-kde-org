@@ -61,7 +61,7 @@ func downloadGeoLite2City() {
 	}
 	defer resp.Body.Close()
 
-	// Writer the body to file
+	// Write the body to file.
 	// Reading from Body.Resp via Gzip and Bufio is substantially slower
 	// than first downloading the entire body and reading from local. I am
 	// not entirely sure why that is since bufio should make it fast :(
