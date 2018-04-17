@@ -51,7 +51,7 @@ func downloadGeoLite2City() {
 	name := path
 
 	client := &http.Client{}
-	req, err := http.NewRequest("GET", "http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz", nil)
+	req, err := http.NewRequest("GET", "https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz", nil)
 	if err != nil {
 		panic(err)
 	}
