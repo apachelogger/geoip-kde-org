@@ -2,6 +2,7 @@
 Description=geoip.kde.org api service
 
 [Service]
+Environment=GIN_MODE=release
 ExecStart=/home/me/opt/go/bin/geoip-kde-org
 WorkingDirectory=/home/me/opt/go/src/github.com/apachelogger/geoip-kde-org
 Restart=always
