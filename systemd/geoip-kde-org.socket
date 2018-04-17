@@ -2,7 +2,7 @@
 Description=geoip.kde.org api socket
 
 [Socket]
-ListenStream=8080
+ListenStream=127.0.0.1:9200
 
 [Install]
 WantedBy=sockets.target
